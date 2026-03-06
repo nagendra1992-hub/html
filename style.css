@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.about, .projects {
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+}
