@@ -1,31 +1,47 @@
-body {
-    font-family: Arial;
-    margin: 0;
-    background: #f4f4f4;
+body{
+font-family: Arial;
+background:#f4f4f4;
+margin:0;
 }
 
-header {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 30px;
+header{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
 }
 
-.about, .projects {
-    padding: 20px;
+.cars{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
 }
 
-.card {
-    background: white;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 10px;
+.car{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+text-align:center;
+width:250px;
 }
 
-button {
-    margin: 20px;
-    padding: 10px 20px;
-    background: blue;
-    color: white;
-    border: none;
+.car img{
+width:100%;
+border-radius:10px;
+}
+
+button{
+background:#007BFF;
+color:white;
+border:none;
+padding:10px 15px;
+margin-top:10px;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:#0056b3;
 }

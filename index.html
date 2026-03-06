@@ -1,41 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>My Portfolio</title>
+    <title>Car Showroom</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>DevOps Engineer | Kubernetes | AWS</p>
+    <h1>Dream Car Showroom</h1>
 </header>
 
-<section class="about">
-    <h2>About Me</h2>
-    <p>Hello! I am learning DevOps tools like Docker, Kubernetes, AWS and CI/CD.</p>
+<section class="cars">
+
+<div class="car">
+    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
+    <h2>BMW</h2>
+    <button onclick="showMessage('BMW')">View Details</button>
+</div>
+
+<div class="car">
+    <img src="https://images.unsplash.com/photo-1542362567-b07e54358753">
+    <h2>Audi</h2>
+    <button onclick="showMessage('Audi')">View Details</button>
+</div>
+
+<div class="car">
+    <img src="https://images.unsplash.com/photo-1493238792000-8113da705763">
+    <h2>Mercedes</h2>
+    <button onclick="showMessage('Mercedes')">View Details</button>
+</div>
+
 </section>
-
-<section class="projects">
-    <h2>Projects</h2>
-
-    <div class="card">
-        <h3>Kubernetes Project</h3>
-        <p>3-tier architecture deployed on Kubernetes.</p>
-    </div>
-
-    <div class="card">
-        <h3>AWS CI/CD Pipeline</h3>
-        <p>CI/CD pipeline using Jenkins and GitHub.</p>
-    </div>
-</section>
-
-<button onclick="showMessage()">Click Me</button>
-
-<footer>
-    <p>© 2026 My Portfolio</p>
-</footer>
 
 <script src="script.js"></script>
 

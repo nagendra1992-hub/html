@@ -1,3 +1,3 @@
-function showMessage() {
-    alert("Welcome to my DevOps Portfolio!");
+function showMessage(car){
+alert("You selected " + car + " car!");
 }
